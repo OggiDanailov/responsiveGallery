@@ -1,0 +1,15 @@
+body {
+	padding: 0 10px;
+
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+#facebook{
+	margin-bottom: 20px;
+	padding-bottom: 60px;
+}
