@@ -258,3 +258,5 @@ $(function() {
 	Gallery.addItems( $new );
 	*/
 });
+
+

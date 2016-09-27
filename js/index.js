@@ -1,10 +1,10 @@
 $(document).ready(function(){
 	$("#name").hover(function(){
+    $('nav').css('display', 'block');
     $("#menu").animate({ opacity: '1.0'});
     $('body').addClass('container2');
-    $(".clearfix").addClass('clearfix2');
-    $('#container').animate({opacity: 0}, 5000);
-     
+    // $(".clearfix").addClass('clearfix2');
+    $('#container').animate({opacity: 0}, 5000);    
   }) 
   
     
@@ -36,7 +36,7 @@ $(function() {
 
 $(window).resize(function(){
     var w = $(window).width();
-    if(w > 680 && menu.is(':hidden')) {
+    if(w > 320 && menu.is(':hidden')) {
         menu.removeAttr('style');
     }
 });
