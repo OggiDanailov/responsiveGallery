@@ -38,7 +38,7 @@
 
     nav ul {
         height: auto;
-        display: none;
+        display: none !important;    
         /*background-color: grey;*/
     }
 

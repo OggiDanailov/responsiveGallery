@@ -3,7 +3,6 @@ $(document).ready(function(){
     $('nav').css('display', 'block');
     $("#menu").animate({ opacity: '1.0'});
     $('body').addClass('container2');
-    // $(".clearfix").addClass('clearfix2');
     $('#container').animate({opacity: 0}, 5000);    
   }) 
   
