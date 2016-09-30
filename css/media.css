@@ -5,9 +5,9 @@
 	height: 70px;
 }
 
-.clearfix {
+/*.clearfix {
 	display: block;
-}
+}*/
 
 
 nav li a {
@@ -96,6 +96,4 @@ nav a#pull {
     display: none;
 }
 
-.rg-gallery {
-    margin-top: 100px;
-}
+

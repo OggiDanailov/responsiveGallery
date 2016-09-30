@@ -2,16 +2,27 @@ body {
 	padding: 0 10px;
 
 }
+p {
+    margin-bottom: -5px;
+}
 
-#navbar{
-	
-	margin-bottom: 100px;
+.last {
+    padding-bottom: 8px;
 }
 
 .parallax-window {
-    min-height: 400px;
+    min-height: 300px;
     background: transparent;
+    
 }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 
 .col-md-12 {
 	text-align: center;
@@ -19,12 +30,21 @@ body {
 
 .col-md-6, .col-md-12 {
 	font-size: 14px;
+    
 }
+.col-md-6{
+    float: left;
+}
+
 
 
 #home{
 	margin-bottom: 20px;
 	padding-bottom: 60px;
+}
+
+#address {
+    text-align: center;
 }
 
 
@@ -33,6 +53,10 @@ body {
 @media screen and (max-width: 1000px) {
     nav { 
         height: auto;
+    }
+    #navbar{
+    
+    margin-bottom: 100px;
     }
     nav ul {
         width: 100%;

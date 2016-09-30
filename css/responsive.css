@@ -27,6 +27,10 @@
     nav li:last-child a {
     border-right: 1px solid #576979  ;
 	}
+
+    .rg-gallery {
+    margin-top: 100px;
+}
 }
 
 /*here it will collpase to show only the barmenu*/
@@ -38,12 +42,12 @@
 
     nav ul {
         height: auto;
-        display: none !important;    
+        display: none ;    
         /*background-color: grey;*/
     }
 
     nav a#pull {
-        display: block;
+        display: block ;
         background-color: #283744;
         width: 100%;
         position: relative;
@@ -54,7 +58,7 @@
         background: url('../images/nav-icon.png') no-repeat;
         width: 30px;
         height: 30px;
-        display: block;
+        display: block ;
         position: absolute;
         right: 15px;
         top: 10px;
