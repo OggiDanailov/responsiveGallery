@@ -43,7 +43,7 @@ body {
 }
 
 #name {
-	font: 43px 'Times New Roman';
+	font: 43px 'PT Sans', Arial, sans-serif;
   	color: white;
   	text-shadow: 3px 3px 3px grey;
   	position: relative;
@@ -80,7 +80,7 @@ nav {
     width: 80%;
     background: none;
     font-size: 11pt;
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
     font-weight: bold;
     position: relative;
     /*border-bottom: 2px solid pink;*/

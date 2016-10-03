@@ -17,7 +17,7 @@ $(document).ready(function(){
   }
 
   $(function () {
-    showText("#name", "Snejana Simeonova", 0, 200); 
+    showText("#name", "SNEJANA SIMEONOVA", 0, 200); 
   });
 
 

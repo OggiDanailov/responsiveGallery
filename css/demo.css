@@ -5,9 +5,11 @@ body{
 	/*background-color*/
 	background:#1F1F1F url(../images/pattern.png) repeat top left;
 	color:#fff;
-	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+	
 	font-size:14px;
 }
+/*'PT Sans Narrow', Arial, sans-serif*/
 a{
 	color:#ddd;
 	text-decoration:none;
@@ -28,7 +30,7 @@ h1{
 	font-size:34px;
 	text-align:center;
 	color:#fff;
-	font-family: "Times New Roman";
+	font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
 	text-shadow:1px 1px 1px #000;
 	padding-bottom:10px;
 	line-height:40px;
