@@ -16,7 +16,7 @@ body {
 
 .container2 {
 	background-image: url("../images/sailboat V.jpg");
-	margin: 0 auto;
+	margin: 50px auto;
 	width: 80%;
 	height: 1025;
 	/*border: 4px solid red;*/
@@ -50,34 +50,17 @@ body {
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
-	background:#1F1F1F url(../images/pattern.png) repeat top left;
+	/*background:#1F1F1F url(../images/pattern.png) repeat top left;*/
     border-style: solid;
     border: solid #d3d3d3;
     box-shadow: 10px 10px 5px #888888;
-}
-
-/*.clearfix {
-	display: none;
-}
-
-.clearfix2 {
-    display: block;
-}*/
-
-
-nav li a {
-    display: block;
-}
-
-nav li a:hover {
-    background-color: #7e7e7e;
 }
 
 nav {   
     display: none;
     margin: 0 auto;
 	height: 40px;
-    width: 80%;
+    width: 100%;
     background: none;
     font-size: 11pt;
     font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
@@ -86,13 +69,14 @@ nav {
     /*border-bottom: 2px solid pink;*/
     /*opacity: 1;*/
     /*border-bottom: solid #d3d3d3;*/
-    box-shadow: 10px 10px 5px #888888;	
+    box-shadow: 10px 10px 5px #888888;
+    	
 }
 
 nav ul {
 	margin: 0 auto;
     padding: 0;
-    width: 100%;
+    width: 80%;
     height: 38px;    
 }
 
@@ -124,6 +108,14 @@ nav li {
     text-shadow: 1px 1px 0px #283744;
     /*background-color: green;*/
 
+}
+
+nav li a {
+    display: block;
+}
+
+nav li a:hover {
+    background-color: #7e7e7e;
 }
 
 	nav li a {
